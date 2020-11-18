@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+ <html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="blog.css">
+
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!-- Header section -->
+            <header>
+                <a href="index.html" class="logo"><img src="image/john2.png" alt=""></a>
+                <a class="toggle"><i class="fas fa-bars"></i></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Service</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </header>
+            
+            <!-- Banner section -->
+        <section id="banner">
+            <div class="b_outer">
+                <div class="b_details">
+                    <h1>Blog</h1>
+                </div>
+            </div>
+       </section>
+      
+    
+        <section class="blog">
+              <div class="container">
+                  <h1>Blog</h1>
+                 <div class="grid">
+                    <div class="blog-img">
+                        <img src="image/blog-1.jpg" alt="">
+                     <div class="blog-content">
+                         <a href="https://takecareof.com/articles/7-healthy-living-blogs-you-need-to-follow-right-now" target="blank" class="blog-title">The best food for healthy living.</a>
+                         <p>There are tons of healthy living blogs and resources online that it can feel overwhelming — with so many to choose from, how do you know which you should really pay attention to? Here’s a place to start:</p>
+                         <a href="https://takecareof.com/articles/7-healthy-living-blogs-you-need-to-follow-right-now" class="blog-btn" target="blank"> Read more</a>
+                     </div>
+                    </div>
+
+
+                     <div class="blog-img">
+                        <img src="image/blog-2.jpg" alt="">
+                     <div class="blog-content">
+                         <a href="https://cratedwithlove.com/date-night/how-to-plan-a-perfect-date/" target="blank" class="blog-title">Things to do on a date to make it perfect.</a>
+                         <p>This means today, you and your other half may find yourselves being tested more than ever! The two of you can overcome the financial challenges that will come your way, no problem.</p>
+                         <a href="https://cratedwithlove.com/date-night/how-to-plan-a-perfect-date/" class="blog-btn" target="blank"> Read more</a>
+                     </div>
+                    </div>
+                 </div>
+              </div>
+        </section>
+
+        <div id="newsletter">
+            <div class="contain">
+                <h1>Subscribe to our weekly newsletter.</h1>
+                <form>
+                    <label for="Email">Email:</label>
+                    <input type="email" placeholder=" Enter Your Email Address">
+                    </form>
+            </div>
+        </div>
+    
+        <hr class="footer">
+    <footer>
+        <div class="footer-container">
+        <div id="font">
+            <i class="fa fa-facebook" aria-hidden="true" style="color: blue"></i>
+            <i class="fa fa-instagram" aria-hidden="true" style="color: hotpink"></i>
+            <i class="fa fa-twitter" aria-hidden="true" style="color: blue"></i>
+        </div>
+
+        <div class="footer_grid">
+            <div class="location">
+                <h1>LOCATION</h1>
+                <p>KNOCK LOUNGE</p>
+                <P>9A Joseph Imobio close,<br>Thomas Estate, Lekki-Ajah,Lagos.</P>
+                <div class="footer-tel">
+                    <a href="tel:09057998956" style="color: black;">09057998956</a>
+                    <a href="tel:07036648787" style="color: black;">07036648787</a>
+                </div>
+            </div>
+            <div class="post">
+                <h1>RECENT POST</h1>
+                <p>KNOCK LOUNGE</p>
+                <P>Check out our recipes and food menu<br>for authentic Palatable cuisine.</P>
+            </div>
+            <div class="hours">
+                <h1>HOURS</h1>
+                <p>Monday - Sunday</p>
+                <P>Restaurant: 12pm - 4pm, 6pm-10pm</P>
+                <p>Knock Lounge Delivery & Collection:  12pm - 7pm</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+                <p>&copy<span>2020</span> Knock Lounge Cuisine. All Rights Reserved - Design by Pamela</p>
+        </div>
+    </div>
+    </footer>
+
+         <!-- js file -->
+
+         <script src="jquery/jquery.js"></script>
+         <script src="java.js"></script>
+         <script>
+             $(document).ready(function () {
+         $('.toggle').click(function (){
+             $('ul').toggleClass('active');
+         })
+          })
+         </script> 
+</body>
+</html>

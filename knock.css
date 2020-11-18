@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* in-touch section */
+#section3{
+    width: 80%;
+    margin-top: 70px;
+    margin: auto;
+    overflow: hidden;
+}
+#section3 .container3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    position: relative;
+    grid-gap: 20px;
+}
+#section3 .container3 h1{
+    font-size: 30px;
+}
+#img-fluid{
+    background-image: url(image/restaurant-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 455px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    line-height: 80px;
+}
+
+.card-body{
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    opacity: 0;
+}
+.card-body:hover{
+    opacity: 1;
+} 
+#img-fluid2{
+    background-image: url(image/couple.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 455px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    line-height: 80px;
+}
+#img-fluid3{
+    background-image: url(image/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 455px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    line-height: 80px;
+}
+
+/* Eat-together section */
+.eat-together{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.eat-together-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.eat-together-title h1{
+    color: crimson;
+}
+
+.eat-together-title p{
+    font-weight: bold;
+}
+
+.eat-together a{
+    text-decoration: none;
+}
+
+.reserve{
+    width: 200px;
+    height: 30px;
+    border: 3px solid #f4f4f4;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+.reserve:hover{
+    background-color: lightblue;
+}
+
+.E-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.E-card-wrap{
+    background-color: #fff;
+    padding-top: 20px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+.E-card-wrap p{
+    font-size: 18px;
+}
+
+
+
+

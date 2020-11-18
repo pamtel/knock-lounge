@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="portfolio.css">
+
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!-- Header section -->
+            <header>
+                <a href="index.html" class="logo"><img src="image/john2.png" alt=""></a>
+                <a class="toggle"><i class="fas fa-bars"></i></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="services.html">Service</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </header>
+       
+
+            <!-- Banner section -->
+            <section id="banner">
+                <div class="b_outer">
+                    <div class="b_details">
+                        <h1>Our Portfolio</h1>
+                    </div>
+                </div>
+           </section>
+          
+
+        <section id="portfolio">
+            <div class="p-content-wrap">
+                    <h1>Check Out Some Of Our Portfolio's</h1>
+                    <p>Enjoy some of our local dishes away from home</p>
+            </div>
+                <div class="grid">
+                    <div class="box">
+                        <img src="image/local1.jpeg">
+                    </div>
+                    <div class="box">
+                        <img src="image/local2.jpg">
+                    </div>
+                    <div class="box">
+                        <img src="image/local3.jpg">
+                    </div>
+                    <div class="box">
+                        <img src="image/local4.jpeg">
+                    </div>
+                    <div class="box">
+                        <img src="image/local5.jpg">
+                    </div>
+                    <div class="box">
+                        <img src="image/local6.jpg">
+                    </div>
+                    <div class="box">
+                        <img src="image/local7.jpg">
+                    </div>
+                    <div class="box">
+                        <img src="image/local8.jpg">
+                    </div>
+                    <div class="box">
+                        <img src="image/local9.jpg">
+                    </div>
+                    <div class="box">
+                        <img src="image/local10.jpg">
+                    </div>
+                    <div class="box">
+                        <img src="image/local11.jpeg">
+                    </div>
+                    <div class="box">
+                        <img src="image/local12.jpeg">
+                    </div>
+                    <div class="box">
+                        <img src="image/local13.jpg">
+                    </div>
+                    <div class="box">
+                        <img src="image/local14.jpg">
+                    </div>
+                    <div class="box">
+                        <img src="image/local16.jpg">
+                    </div>
+                </div>
+        </section>
+
+        <div id="newsletter">
+            <div class="contain">
+                <h1>Subscribe to our weekly newsletter.</h1>
+                <form>
+                    <label for="Email">Email:</label>
+                    <input type="email" placeholder=" Enter Your Email Address">
+                    </form>
+            </div>
+        </div>
+    
+
+        <hr class="footer">
+    <footer>
+        <div class="footer-container">
+        <div id="font">
+            <i class="fa fa-facebook" aria-hidden="true" style="color: blue"></i>
+            <i class="fa fa-instagram" aria-hidden="true" style="color: hotpink"></i>
+            <i class="fa fa-twitter" aria-hidden="true" style="color: blue"></i>
+        </div>
+
+        <div class="footer_grid">
+            <div class="location">
+                <h1>LOCATION</h1>
+                <p>KNOCK LOUNGE</p>
+                <P>9A Joseph Imobio close,<br>Thomas Estate, Lekki-Ajah,Lagos.</P>
+                <div class="footer-tel">
+                    <a href="tel:09057998956" style="color: black;">09057998956</a>
+                    <a href="tel:07036648787" style="color: black;">07036648787</a>
+                </div>
+            </div>
+            <div class="post">
+                <h1>RECENT POST</h1>
+                <p>KNOCK LOUNGE</p>
+                <P>Check out our recipes and food menu<br>for authentic Palatable cuisine.</P>
+            </div>
+            <div class="hours">
+                <h1>HOURS</h1>
+                <p>Monday - Sunday</p>
+                <P>Restaurant: 12pm - 4pm, 6pm-10pm</P>
+                <p>Knock Lounge Delivery & Collection:  12pm - 7pm</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+                <p>&copy<span>2020</span> Knock Lounge Cuisine. All Rights Reserved - Design by Pamela</p>
+        </div>
+    </div>
+    </footer>
+
+    </body>
+
+     <!-- js file -->
+
+     <script src="jquery/jquery.js"></script>
+     <script src="java.js"></script>
+     <script>
+         $(document).ready(function () {
+     $('.toggle').click(function (){
+         $('ul').toggleClass('active');
+     })
+      })
+     </script>
+</html>

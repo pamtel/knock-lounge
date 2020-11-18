@@ -1,0 +1,395 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+
+/* General container */
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* General Banner */
+#banner {
+    height: 80vh;
+    width: 100%;
+    background: url(./image/about.jpg);
+    background-size: cover;
+}
+
+.b_outer {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+}
+
+.b_details {
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.b_details h1 {
+    font-size: 4em;
+    margin-top: 5em;
+   
+}
+
+
+/* Header section */
+header {
+    position: fixed;
+    padding: 0 100px;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    background: rgba(50, 50, 50, 0.8);
+    transition: .5s;
+    z-index: 99999;
+}
+
+header img {
+    height: 70px;
+    width: 90px;
+    margin-top: 5px;
+}
+
+ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: right;
+    transition: .5s;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: .5s;
+    color: #fff;
+}
+
+ul li a:hover {
+    color: crimson;
+}
+
+ul li a.active {
+    color: lightblue;
+}
+
+.toggle {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    color: #fff;
+    background: #000;
+    padding: 0px 9px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2.5rem;
+    border-radius: 5px;
+}
+
+
+/* Hero section */
+#hero {
+    height: 100vh;
+    width: 100%;
+    background: url(./image/background_knock.jpg);
+    background-size: cover;
+}
+
+.outer {
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.details h1 {
+    font-size: 4em;
+}
+
+.details a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background: crimson;
+    color: white;
+    font-weight: bold;
+}
+
+.details a:hover {
+    border: 2px solid crimson;
+    background: white;
+    color: crimson;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.details .wrap {
+   margin-top: 2em;
+}
+
+.details .wrap .thread {
+    height: 3px;
+    background-color: rgba(50, 50, 50, 0.8);
+    border-color: rgba(50, 50, 50, 0.8);
+    border-radius: 2px;
+    animation: thread2 5s infinite;
+}
+
+@keyframes thread2{
+    0% { width: 100%;}
+    50% { width: 100%;}
+    80% { width: 0px;}
+    100%{ width:100%;}
+}
+
+/* Welcome section */
+.welcome {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 4em;
+}
+
+.welcome_content {
+    text-align: left;
+}
+
+.welcome_content h1 {
+    font-size: 60px;
+    margin-bottom: -10px;
+    color: crimson;
+}
+
+.welcome_content p {
+    font-size: 17px;
+}
+
+.welcome_image {
+    margin-top: 4em;
+}
+
+
+
+/* Dishes section */
+.dishes {
+    margin-top: 3em;
+}
+
+.title h2{
+    font-size: 20px;
+    color: crimson;
+    margin-bottom: -1.4em;
+}
+
+.title h1{
+    font-size: 35px;
+}
+
+.services{
+    border: 2px solid lightblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 18px;
+}
+
+.services img{
+    width: 250px;
+    height: 150px;
+      
+}
+.services h3{
+    font-size: 22px;
+    
+    margin-bottom: -10px;
+}
+.services p {
+    font-size: 18px;
+    padding-right: 10em;
+}
+
+/* footer section */
+.footer{
+    margin-top: 5em;
+    height: 1px;
+    background-color: red;
+}
+footer{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+#font i{
+    padding-left: 5px;
+}
+.footer-tel a{
+    padding-left: 5px;
+    text-decoration: none;
+}
+.footer_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 30px;
+}
+.copyright{
+    text-align: center;
+}
+
+/* newsletter */
+#newsletter{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+ }
+ .contain{
+     text-align: center; 
+      
+ }
+#newsletter form {
+     display: block !important;
+     width: 100%;
+     margin: auto;
+ }
+ #newsletter label{
+     display: block;
+     font-size: 18px;
+     font-weight: bold;
+ }
+ #newsletter input[type="email"]{
+     border: 2px solid #000;
+     opacity: 0.5;
+     box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+     outline: none;
+     padding: 10px 100px 10px 100px;
+   
+ }
+ 
+
+/* RESPONSIVENESS */
+/* Mobile view */
+@media(max-width: 768px) {
+    /* header section */
+    header img {
+        padding-left: 15px;
+    }
+
+    .toggle {
+        display: block;
+        margin-right: 15px;
+    }
+
+    /* Hero section */
+    .details h1 {
+        font-size: 2.3em; 
+    }
+
+    /* banner */
+    #banner {
+        height: 70vh;
+        width: 100%;
+        background: url(./image/banner.jpg);
+        background-size: cover;
+    }
+    
+    .b_outer {
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        height: 70vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .b_details {
+        text-align: center;
+        color: white;
+        letter-spacing: 2px;
+    }
+    
+    .b_details h1 {
+        font-size: 2.5em;
+        margin: 0 !important;
+    }
+    
+    /* Dishes section */
+    .services{
+        display: block;
+    }
+    .services p {
+        font-size: 18px;
+        padding-right: 0;
+    }
+   .title {
+       text-align: center;
+   }
+   .title h1 {
+       font-size: 1.8rem;
+   }
+}
+
+
+/* Tablet view */
+@media(max-width: 992px) {
+    /* header section */
+    .toggle {
+        display: block;
+        margin-right: 20px;
+    }
+    
+    header img {
+        padding-left: 20px;
+    }
+    
+        header {
+            padding: 0 0;
+        }
+    
+        header ul {
+            width: 100%;
+            top: -4px;
+            display: none;
+        }
+        header ul.active {
+            display: block;
+        }
+    
+        header ul li a {
+            margin: 0;
+            display: block;
+            text-align: center;
+            color: #fff;
+            background: rgba(50, 50, 50, 1);
+        }
+
+        /* welcome section */
+        .welcome {
+            display: block;
+        }
+}
